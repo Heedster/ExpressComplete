@@ -1,0 +1,14 @@
+{
+   "scope": "source.js",
+
+   "completions":
+   [
+      { "trigger": "rog\trouter.get", "contents": "router.get('/$1',function(req,res) { \n $2 \n });" },
+      { "trigger": "rop\trouter.post", "contents": "router.post('/$1',function(req,res) { \n $2 \n });" },
+      { "trigger": "roput\trouter.put", "contents": "router.put('/$1',function(req,res) { \n $2 \n });" },
+      { "trigger": "rodel\trouter.delete", "contents": "router.delete('/$1',function(req,res) { \n $2 \n });" },
+      { "trigger": "rs\tres.send", "contents": "res.send($1);" },
+      { "trigger": "rw\tres.write", "contents": "res.write($1);" },
+      { "trigger": "re\tres.end", "contents": "res.end($1);" }
+   ]
+}
