@@ -9,3 +9,8 @@ A sublime text plugin for Expressjs Autocompletions
 * rs : ```res.send()```
 * rw : ```res.write()```
 * re : ```res.end()```
+* rr : ```res.render('')```
+* rd : ```res.redirect('')```
+* rqpar : ```req.params[]```
+* rqb  : ```req.body```
+* rqsess : ```req.session```
