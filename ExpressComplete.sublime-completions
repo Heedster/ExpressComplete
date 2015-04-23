@@ -9,6 +9,11 @@
       { "trigger": "rdel\trouter.delete", "contents": "router.delete('/$1',function(req,res) { \n $2 \n });" },
       { "trigger": "rs\tres.send", "contents": "res.send($1);" },
       { "trigger": "rw\tres.write", "contents": "res.write($1);" },
-      { "trigger": "re\tres.end", "contents": "res.end($1);" }
+      { "trigger": "re\tres.end", "contents": "res.end($1);" },
+      { "trigger": "rqpar\treq.params[]", "contents": "req.params[$1]" },
+      { "trigger": "rqb\treq.body", "contents": "req.body" },
+      { "trigger": "rqsess\treq.session", "contents": "req.session" },
+      { "trigger": "rd\tres.redirect", "contents": "res.redirect($1);" },
+      { "trigger": "rr\tres.render", "contents": "res.render('$1');" }
    ]
 }
