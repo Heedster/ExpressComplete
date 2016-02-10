@@ -3,10 +3,10 @@
 
    "completions":
    [
-      { "trigger": "aget\tapp.get", "contents": "app.get('/$1',function(req,res) { \n $2 \n });" },
-      { "trigger": "apost\tapp.post", "contents": "app.post('/$1',function(req,res) { \n $2 \n });" },
-      { "trigger": "aput\tapp.put", "contents": "app.put('/$1',function(req,res) { \n $2 \n });" },
-      { "trigger": "adel\tapp.delete", "contents": "app.delete('/$1',function(req,res) { \n $2 \n });" },
+      { "trigger": "aget\tapp.get", "contents": "app.get('/$1',function(req,res) {\n    $2\n});" },
+      { "trigger": "apost\tapp.post", "contents": "app.post('/$1',function(req,res) {\n    $2\n});" },
+      { "trigger": "aput\tapp.put", "contents": "app.put('/$1',function(req,res) {\n    $2\n});" },
+      { "trigger": "adel\tapp.delete", "contents": "app.delete('/$1',function(req,res) {\n    $2\n});" },
       { "trigger": "rs\tres.send", "contents": "res.send($1);" },
       { "trigger": "rw\tres.write", "contents": "res.write($1);" },
       { "trigger": "re\tres.end", "contents": "res.end($1);" },
